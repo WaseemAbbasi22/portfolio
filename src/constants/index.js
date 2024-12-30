@@ -4,25 +4,24 @@ import {
     creator,
     web,
     javascript,
-    typescript,
+    flutter,
     html,
     css,
     reactjs,
-    redux,
-    tailwind,
-    nodejs,
-    mongodb,
+    dart,
+    firebase,
+    bloc,
+    aws,
     git,
     figma,
-    docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
+    cloudSolution,
+    pixxi,
+    lads,
+    goProgs,
     carrent,
+    frich,
     jobit,
     tripguide,
-    threejs,
   } from "../assets";
   
   export const navLinks = [
@@ -42,24 +41,52 @@ import {
   
   const services = [
     {
-      title: "Web Developer",
-      icon: web,
-    },
-    {
-      title: "React Native Developer",
+      title: "Mobile App Developer",
       icon: mobile,
     },
+    
     {
-      title: "Backend Developer",
+      title: "Flutter Developer",
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "React Developer",
       icon: creator,
+    },
+    {
+      title: "REST APIs Integrations",
+      icon: web,
     },
   ];
   
   const technologies = [
+    
+    {
+      name: "Flutter",
+      icon: flutter,
+    },
+    
+    {
+      name: "Flutter Bloc",
+      icon: bloc,
+    },
+    {
+      name: "Dart",
+      icon: dart,
+    },
+    {
+      name: "FireBase",
+      icon: firebase,
+    },
+  
+    {
+      name: "git",
+      icon: git,
+    },
+    {
+      name: "figma",
+      icon: figma,
+    },
     {
       name: "HTML 5",
       icon: html,
@@ -73,97 +100,67 @@ import {
       icon: javascript,
     },
     {
-      name: "TypeScript",
-      icon: typescript,
-    },
-    {
       name: "React JS",
       icon: reactjs,
     },
     {
-      name: "Redux Toolkit",
-      icon: redux,
+      name: "Aws Web Services",
+      icon: aws,
     },
-    {
-      name: "Tailwind CSS",
-      icon: tailwind,
-    },
-    {
-      name: "Node JS",
-      icon: nodejs,
-    },
-    {
-      name: "MongoDB",
-      icon: mongodb,
-    },
-    {
-      name: "Three JS",
-      icon: threejs,
-    },
-    {
-      name: "git",
-      icon: git,
-    },
-    {
-      name: "figma",
-      icon: figma,
-    },
-    {
-      name: "docker",
-      icon: docker,
-    },
+  
   ];
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
-      iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      title: "Flutter developer",
+      company_name: "Cloud Solutions",
+      icon: cloudSolution,
+      // iconBg: "#383E56",
+      iconBg: "#ffffff",
+      date: "Aug 2024 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
+        "Developing and maintaining Mobile applications using Flutter and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
+        "Implementing responsive design and ensuring cross-platform compatibility.",
         "Participating in code reviews and providing constructive feedback to other developers.",
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
-      iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      title: "Flutter developer",
+      company_name: "Pixxi",
+      icon: pixxi,
+      iconBg: "#ffffff",
+      date: "Jun 2023 - Aug 2024",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
+        "Developing and maintaining Mobile applications using Flutter and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
+        "Implementing responsive design and ensuring cross-platform compatibility.",
         "Participating in code reviews and providing constructive feedback to other developers.",
       ],
     },
     {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      title: "Futter Developer ",
+      company_name: "Lads Technologies",
+      icon: lads,
+      iconBg: "#ffffff",
+      date: "Nov 2021 - May 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
+        "Developing and maintaining Mobile applications using Flutter and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
+        "Implementing responsive design and ensuring cross-platform compatibility.",
         "Participating in code reviews and providing constructive feedback to other developers.",
       ],
     },
     {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      title: "Futter Developer ",
+      company_name: "Goprogs Technologies",
+      icon: goProgs,
+      iconBg: "#ffffff",
+      date: "Sep 2020 - Oct 2021",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
+        "Developing and maintaining Mobile applications using Flutter and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
+        "Implementing responsive design and ensuring cross-platform compatibility.",
         "Participating in code reviews and providing constructive feedback to other developers.",
       ],
     },
@@ -198,67 +195,79 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Pixxi CRM",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Web and Mobile CRM platform focused on the real estate in UAE, helping real estate companies to better grow business, and helping brokers to manage all data and track data in a systematic way.",
       tags: [
         {
-          name: "react",
+          name: "Flutter",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "Rest API",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
-          color: "pink-text-gradient",
+          name: "Push Notifications",
+          color: "orange-text-gradient",
+        },
+        {
+          name: "Calander",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Google Maps",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Provider",
+          color: "orange-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: frich,
+      source_code_link: "https://apps.apple.com/ae/app/pixxi-crm/id6450628894",
     },
     {
-      name: "Job IT",
+      name: "Frich: Money Insights for GenZ",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Mobile application on which you Anonymously see how others spend, save and invest. Every week we break down how others manage their money. Then we’ll show you how to manage yours.",
       tags: [
         {
-          name: "react",
+          name: "Flutter",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "Rest API",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
-          color: "pink-text-gradient",
+          name: "Push Notifications",
+          color: "orange-text-gradient",
         },
       ],
       image: jobit,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://apps.apple.com/us/app/frich-money-insights-for-genz/id1573562913",
     },
     {
-      name: "Trip Guide",
+      name: "HD Wallpaper - 4K Background",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "The ultimate HD Wallpaper - 4K Background app to personalize your phone with stunning Background.With vast collection of HD wallpapers, live backgrounds, cool visuals, and captivating dark wallpapers.",
       tags: [
         {
-          name: "nextjs",
+          name: "Flutter",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "FireBase",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "S3 Bucket",
           color: "pink-text-gradient",
         },
       ],
       image: tripguide,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://play.google.com/store/apps/details?id=com.hdwallpaperapp.livewallpapers.hdbackground.animewallpaper",
     },
   ];
   
