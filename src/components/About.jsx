@@ -48,10 +48,10 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-         A passionate Mobile App developer with more than 4 years of experience.
-            I use Flutter to develop mobile applications for Android, iOS and Web. 
-            My main expertise are on performance and creating cost optimised business solutions within mobile application world.
-            Hands on experience in Flutter, Dart, Firebase, Amazon Web Services, Amplify, APIs and Others
+         A passionate Mobile & Web App developer with more than 4 years of experience.
+            I use Flutter to develop mobile applications for Android, iOS and React for Web. 
+            My main expertise are on performance and creating cost optimised business solutions within mobile and web application world.
+            Hands on experience in Flutter, Dart,React, Firebase,Push Notification, Amazon Web Services and  Backend Integration.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>

@@ -46,16 +46,16 @@ import {
     },
     
     {
-      title: "Flutter Developer",
-      icon: backend,
+      title: "Web Developer",
+      icon: web,
     },
     {
-      title: "React Developer",
+      title: "Responsive Design",
       icon: creator,
     },
     {
-      title: "REST APIs Integrations",
-      icon: web,
+      title: "Backend Integration",
+      icon: backend,
     },
   ];
   
@@ -112,7 +112,7 @@ import {
   
   const experiences = [
     {
-      title: "Flutter developer",
+      title: "Mobile App developer",
       company_name: "Cloud Solutions",
       icon: cloudSolution,
       // iconBg: "#383E56",
@@ -224,7 +224,7 @@ import {
           color: "orange-text-gradient",
         },
       ],
-      image: frich,
+      image: jobit,
       source_code_link: "https://apps.apple.com/ae/app/pixxi-crm/id6450628894",
     },
     {
@@ -245,7 +245,7 @@ import {
           color: "orange-text-gradient",
         },
       ],
-      image: jobit,
+      image: frich,
       source_code_link: "https://apps.apple.com/us/app/frich-money-insights-for-genz/id1573562913",
     },
     {
