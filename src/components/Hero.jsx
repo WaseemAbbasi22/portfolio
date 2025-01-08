@@ -16,7 +16,7 @@ const Hero = () => {
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>Hi, I'm <span className='text-[#FF6542]'>Waseem Abbasi</span></h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I develop Cross Platform,<br className='sm-block hidden'/> Responsive and High Quality Mobile Applications.
+            I develop Cross Platform,<br className='sm-block hidden'/> Responsive and High Quality Web & Mobile Applications.
           </p>
         </div>
       </div> 
